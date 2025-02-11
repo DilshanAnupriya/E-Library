@@ -46,7 +46,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button layoutX="14.0" layoutY="261.0" mnemonicParsing="false" onAction="#openMembershipOnAction" prefHeight="79.0" prefWidth="660.0" text="Get Membership">
+        <Button layoutX="14.0" layoutY="261.0" mnemonicParsing="false" onAction="#openPlaceOrderOnAction" prefHeight="79.0" prefWidth="660.0" text="Place Order">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
@@ -62,7 +62,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button layoutX="14.0" layoutY="153.0" mnemonicParsing="false" onAction="#openBorrwReturnOnAction" prefHeight="79.0" prefWidth="209.0" text="Borrow &amp; Return">
+        <Button layoutX="14.0" layoutY="153.0" mnemonicParsing="false" onAction="#openOrderHistoryOnAction" prefHeight="79.0" prefWidth="209.0" text="Order History">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>
@@ -78,7 +78,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button layoutX="463.0" layoutY="153.0" mnemonicParsing="false" onAction="#openHistoryOnAction" prefHeight="79.0" prefWidth="209.0" text="Activities">
+        <Button layoutX="463.0" layoutY="153.0" mnemonicParsing="false" onAction="#openActivitiesOnAction" prefHeight="79.0" prefWidth="209.0" text="Activities">
             <font>
                 <Font name="System Bold" size="16.0" />
             </font>

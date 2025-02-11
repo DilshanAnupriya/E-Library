@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="context" prefHeight="607.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controller.ActivitiesController">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="User Activities">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Separator layoutX="14.0" layoutY="49.0" prefHeight="0.0" prefWidth="962.0" />
+        <Button layoutX="885.0" layoutY="15.0" mnemonicParsing="false" onAction="#backToHomeOnAction" text="Back to Home">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <TableView layoutX="14.0" layoutY="90.0" prefHeight="517.0" prefWidth="962.0">
+            <columns>
+                <TableColumn prefWidth="110.0" text="Date" />
+                <TableColumn prefWidth="132.0" text="User" />
+                <TableColumn prefWidth="719.0" text="Activity" />
+            </columns>
+        </TableView>
+        <DatePicker layoutX="14.0" layoutY="54.0" prefHeight="32.0" prefWidth="174.0" promptText="Filter by date" />
+    </children>
+
+</AnchorPane>

@@ -36,23 +36,28 @@ public class DashboardFormController {
         setUi("BookForm");
     }
 
-    public void openMembershipOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("MembershipForm«");
-    }
 
     public void openUserFormOnAction(ActionEvent actionEvent) {
 
     }
 
-    public void openBorrwReturnOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("Borrow&ReturnForm");
-    }
 
     public void openStatisticsOnAction(ActionEvent actionEvent) throws IOException {
         setUi("StatForm");
     }
 
-    public void openHistoryOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("BorrowHistory");
+
+
+    public void openPlaceOrderOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("PlaceOrderForm");
+    }
+
+    public void openOrderHistoryOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("OrderHistory");
+    }
+
+
+    public void openActivitiesOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("Activities");
     }
 }

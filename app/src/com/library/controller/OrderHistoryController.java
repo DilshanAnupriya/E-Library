@@ -8,8 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class CustomerFormController {
-
+public class OrderHistoryController {
     public AnchorPane context;
 
     private void setUi(String location) throws IOException {
@@ -20,9 +19,7 @@ public class CustomerFormController {
                 )
         );
     }
-
     public void backToHomeOnAction(ActionEvent actionEvent) throws IOException {
         setUi("DashboardForm");
-
     }
 }
