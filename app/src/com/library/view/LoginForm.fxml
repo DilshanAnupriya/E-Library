@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.library.controller.LoginFormController"
+            prefHeight="400.0" prefWidth="600.0"
+            fx:id="context">
+    <children>
+        <ImageView fitHeight="593.0" fitWidth="506.0" layoutX="479.0" layoutY="10.0" pickOnBounds="true">
+            <image>
+                <Image url="@../imgs/login.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="34.0" layoutY="32.0" text="Login">
+            <font>
+                <Font name="Avenir Black Oblique" size="29.0" />
+            </font>
+        </Label>
+        <Separator layoutX="34.0" layoutY="84.0" prefHeight="3.0" prefWidth="414.0" />
+        <Label layoutX="113.0" layoutY="116.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="104.0" layoutY="157.0" text="Email">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Hyperlink layoutX="190.0" layoutY="404.0" onAction="#openSignInOnAction" text="Do not  have an account?" underline="true" />
+        <Button layoutX="103.0" layoutY="334.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="43.0" prefWidth="316.0" style="-fx-background-color: #F4AB00;" text="Login" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <TextField fx:id="txtPassword" layoutX="104.0" layoutY="264.0" prefHeight="43.0" prefWidth="316.0" promptText="enter password" />
+        <TextField fx:id="txtEmail" layoutX="104.0" layoutY="180.0" prefHeight="43.0" prefWidth="316.0" promptText="Enter email" />
+        <Label layoutX="103.0" layoutY="240.0" text="Password">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+
+</AnchorPane>
