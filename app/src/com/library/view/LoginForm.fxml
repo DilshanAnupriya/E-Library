@@ -45,7 +45,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <TextField fx:id="txtPassword" layoutX="104.0" layoutY="264.0" prefHeight="43.0" prefWidth="316.0" promptText="enter password" />
+        <PasswordField fx:id="txtPassword" layoutX="104.0" layoutY="264.0" prefHeight="43.0" prefWidth="316.0" promptText="enter password" />
         <TextField fx:id="txtEmail" layoutX="104.0" layoutY="180.0" prefHeight="43.0" prefWidth="316.0" promptText="Enter email" />
         <Label layoutX="103.0" layoutY="240.0" text="Password">
             <font>
